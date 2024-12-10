@@ -30,4 +30,5 @@ public:
 	FVector MoveOffset;
 	UPROPERTY(EditAnywhere)
 	bool CanMove;
+	void ShouldMove(bool move);
 };
